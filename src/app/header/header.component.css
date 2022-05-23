@@ -1,0 +1,226 @@
+
+
+h2{
+    background-color:whitesmoke;
+   color:whitesmoke;
+    padding: 20px;
+    margin: auto;
+    text-align:left;
+   
+    
+}
+h1 {
+    padding-right: 0px;
+    text-align: right;
+   color: whitesmoke;
+
+}
+.demo{
+    color:#009fd8 ;
+    
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+
+
+ 
+ .Header{
+     display:inline-block;
+     width:1000px;
+     text-align:left;
+     margin-left:145px;
+     margin-right:10px;
+     font-family: sans-serif;
+     z-index: 1;
+     height:10px;
+     
+ }
+ /* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+
+.mat-toolbar{
+
+    
+    background-color:whitesmoke;
+   color: whitesmoke;
+}
+
+/* .Header .mat-toolbar:hover{
+    background-color: #009fd8;
+    
+    top: 0px;
+} */
+
+.Header :hover{
+    background-color:#173966;
+    box-sizing: none;
+    color: whitesmoke;
+    
+
+}
+.Header .dropdown a:hover{
+    background-color:#173966;
+    display: block;
+    
+
+
+}
+
+
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+    left: 10px;
+    width: 100px;
+    z-index: 7;
+    
+  transform: 0.5s ease;
+
+}
+
+
+.drop-content{
+    display:none ;
+    position:absolute;
+    min-width:235px;
+   block-size:15px;
+   min-height:10px;
+    font-size: 12px;
+    box-shadow: none ;
+    
+    
+    
+    
+  
+
+}
+.drop-content a:hover{
+    display: block;
+    /* background-color:#009fd8; */
+    background-color:#2076ca;
+
+   border-bottom: 1px solid whitesmoke;
+    
+
+    color:#c2f9fd;
+    
+
+
+}
+.dropBtn .drop-content .mat-toolbar a:hover{
+    background-color:#009fd8;
+  
+
+}
+
+
+ .dropdown:hover .drop-content {
+    display:block;
+   
+    
+
+
+
+    
+} 
+
+.drop-content a{
+    display: block;
+    background-color:#173966;
+    padding:5px 10px ;
+   border-bottom: 1px solid whitesmoke;
+    color: whitesmoke;
+    
+
+
+}  
+
+.fab{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    color:whitesmoke;
+    background:#009fd8;
+    /* margin-right:200px; */
+    cursor: pointer;
+    margin:3px;
+ 
+    float:right;
+    margin-top:20px;
+    
+    
+    }
+    
+    
+   
+ .dropdown2{
+        display:block;
+        list-style: none;
+        margin-left:200px;
+        float: left;
+        width:30px;
+       
+        width: 25%;
+        margin: auto;
+        position:absolute;
+    } 
+    /* .dropdown2 ul li  {
+        float: left;
+       
+        list-style: none;
+        width: 300px;
+        display: block;
+        margin-left:41px;
+        top:0px;
+    
+       
+    }
+    .dropdown2 ul{
+        padding:1px;
+        display:none;
+        
+        
+    } */
+    .drop-content a:hover .drop-content2{
+       display:block;
+       position: absolute;
+       margin-left:226px;
+       width:235px;
+        margin-top:-22px;
+          top: 5px;
+         
+    }
+    
+   .drop-content2{
+       display: none;
+    
+       
+   }
+   .fa-solid{
+    float:right;
+    margin-top: 8px;
+}
+.social-icons img{
+    margin-left: 155px;
+}
+.social-icons {
+    margin-right: 150px;
+}
+.social-icons a i:hover{
+    transform: scale(1.4);
+
+}
+a i{
+    transform: all 0.3s linear;
+}

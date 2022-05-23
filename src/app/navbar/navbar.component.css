@@ -1,0 +1,66 @@
+nav{
+    padding: 15px 30px;
+}
+li{    
+    text-transform:uppercase;
+  }
+ 
+.navbar-nav >li {
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-nav >li > a{
+    color: white;/* color of about us , career , contact , services*/
+    letter-spacing: 0.25em;
+    
+}
+.navbar-nav >li> a:hover{
+    color:white;
+    background-color:black;/* behaviour when hover on initial -> about, career*/
+    opacity: 25%;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+}
+.dropdown-menu { 
+    background-color:transparent;
+    opacity: 35%;
+    
+ }
+ .dropdown-item{
+     color:white;
+     padding-bottom: 0px;
+     padding-top: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
+     text-align: left;
+     font-weight: 500;
+     
+ }
+ 
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.dropdown-item:hover{
+    color:seashell;    
+    background-color:transparent;
+    opacity: 70%;   
+    font-weight: 500;
+}
+
+ .dropdown-submenu a::after{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 10%;
+} 
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -190px;
+    left: 100%;
+}
+
+

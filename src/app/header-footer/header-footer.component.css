@@ -1,0 +1,124 @@
+ /* .Header{
+    
+    background-color:#062961;
+        padding: 5px;
+        margin: 0;
+        text-align:left;
+        
+        color:white;
+        position: absolute;
+        width: 100%;
+    
+        
+    }
+    .Icon{
+        position : right;
+        display: flex;
+        justify-content: right;
+        
+        margin: 10px;
+    
+    }
+    .Footer{
+    
+        background-color:#062961;
+        padding:0px;
+        margin: 0;
+        text-align:center;
+        color:whitesmoke;
+        bottom: 0;
+       position:absolute;
+       align-items: baseline;
+       vertical-align: bottom;
+       width: 100%;
+       line-height:4px;
+       font-size: 10px;
+       position: absolute;
+    }
+
+.row{
+    width: 90%;
+      margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    border-bottom: 0px;
+
+}
+.col{
+    flex-basis: 25%;
+    padding: 2px;
+
+}
+
+.col h5{
+    
+    margin-bottom:5px;
+    position: relative;
+    
+}
+.email-id{
+
+    border-bottom: 1px solid whitesmoke;
+    
+
+}
+.social-icons .fab{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 10px;
+    color: aqua;
+    background:magenta;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.col:nth-child(2),.col :nth-child(3){
+    flex-basis:20% ;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 25px;
+    width: 90%;
+    border-bottom: 1 px solid gold;
+
+}
+.underline{
+    width: 100%;
+    height:5px ;
+    background: blueviolet;
+    border-radius: 3px;
+    position:absolute ;
+    top:25px ;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+
+} */
+
+
+    /* .mat-toolbar-row, .mat-toolbar-single-row {
+        display: flex;
+        box-sizing: border-box;
+        padding:0px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        background:#062961;
+        white-space: nowrap;
+        color: white;
+        margin: 0;
+    } */
+    

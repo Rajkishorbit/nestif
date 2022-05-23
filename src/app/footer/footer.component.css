@@ -1,0 +1,112 @@
+
+    
+    
+/* .Footer{
+    
+    background-color:#062961;
+    padding:0px;
+    margin: 0;
+    text-align:center;
+    color:whitesmoke;
+    bottom: 0;
+   position:absolute;
+   align-items: baseline;
+   vertical-align: bottom;
+   width: 100%;
+   line-height:4px;
+   font-size: 10px;
+   position: absolute;
+}  
+
+
+
+.email-id{
+
+border-bottom: 1px solid whitesmoke;
+
+
+}
+
+
+hr{
+margin-left: 20px;
+margin-right: 25px;
+width: 90%;
+border-bottom: 1 px solid gold;
+
+}
+.underline{
+width: 100%;
+height:5px ;
+background: blueviolet;
+border-radius: 3px;
+position:absolute ;
+top:25px ;
+left: 0;
+overflow: hidden;
+}
+.underline span{
+width: 15px;
+height: 100%;
+border-radius: 3px;
+position: absolute;
+top: 0;
+left: 10px;
+
+}
+*/
+.col:nth-child(2),.col :nth-child(3){
+  flex-basis:20% ;
+  }
+.social-icons .fab{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  color:none;
+  background:none;
+  margin-right: 10px;
+  cursor: pointer;
+  
+  }
+  .col h5{
+
+    margin-bottom:5px;
+    position: relative;
+    font-family: sans-serif;
+    
+    }
+    
+      .col{
+      flex-basis: 25%;
+      padding: 2px;
+      
+      }
+      .Footer{
+    
+        /* background-color:#062961; */
+        background-color:#173966;
+        padding:0px;
+        margin: 0;
+        text-align:center;
+        color:whitesmoke;
+        bottom: 0;
+       position:relative;
+       align-items: baseline;
+       vertical-align: bottom;
+       width: 100%;
+       line-height:4px;
+       font-size: 13px;
+      font-family: sans-serif;
+      
+    }
+    .social-icons .fab:hover{
+      transform: scale(1.4);
+  
+  }
+  a i{
+      transform: all 0.3s linear;
+  }
+  

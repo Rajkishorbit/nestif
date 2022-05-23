@@ -1,0 +1,133 @@
+/*------- services ----------*/
+
+
+/* Clear floats after the columns */
+
+
+.services{
+    
+    width: 75%;
+    
+    min-height: 20vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#009fd8;
+    text-align: center;
+    margin-top: 50px;
+}
+.text{
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.column {
+  float: left;
+  width: 8%;
+    
+    
+  padding: 2%;
+    padding-bottom: 0%;
+    flex-basis: 20%;
+    border-radius: 10px;
+     margin-bottom: 30px;
+    position:relative;
+    overflow: hidden;
+}
+
+@media(max-width: 700px){
+    .services{
+         width: 70%;
+        
+    } 
+    .column{
+        width: auto;
+        padding: 0%;
+    }
+    .layer{
+        height: 80%;
+    width: 80%;
+    }
+}
+
+/* Clear floats after image containers */
+.row:after {
+  content: "";
+  
+  display: table;
+    clear: both;
+}
+.column-img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    transition: 0.5s;
+}
+.layer:hover{
+    background:sandybrown;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    color:white;
+    
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.column{
+    float: left;
+  width: 33.33%;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow: hidden;
+}
+
+
+.column img{
+    width: 100%;
+    display: block;
+}
+
+
+@media(max-width: 700px){
+    .services{
+         width: 70%;
+        
+    } 
+    .column{
+        width: auto;
+        padding: 0%;
+    }
+    .layer{
+        height: 100%;
+    width: 100%;
+    }
+}

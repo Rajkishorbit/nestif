@@ -1,0 +1,41 @@
+.block-quote{
+    margin-left: 30%;
+    margin-right:20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: gray;
+    display: block;
+
+    font-family: serif;
+}
+ *{
+    margin-left: 30px;
+    
+}  
+.btn-group {
+    float: right;
+}
+
+.block-quote::before{
+  content: '\201c';
+  top: 20px;
+  left: -27px;
+  color:rgb(15, 15, 112);
+  
+  font-size:4rem;
+}
+.block-quote::after{
+    content: '\201d';
+    bottom: 20px;
+justify-content: right;
+color:rgb(15, 15, 112);
+margin-left: 350px;
+font-size:4rem;  
+}
+.block-quote ::before block-quote::after{
+    font-size:6em;
+    position: absolute;
+    
+    
+}

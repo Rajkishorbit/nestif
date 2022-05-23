@@ -1,0 +1,153 @@
+
+
+
+
+<html> 
+    
+<head>
+    <meta name = "viewport" content="with=devide-width, initial-scale=1.0">
+    <title>Nestif Technologies</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+    
+    
+<body>
+
+   <section class ="header">
+    <nav>
+        <a href="index.html"><img src= "/assets/Images/logo.png"></a>
+        <div class="nav-links" id="navLinks" >
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CAREER</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            
+
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <div class="text-box">
+        <h1>IDEATE . INNOVATE . INSPIRE</h1>
+    </div>            
+</section>
+    
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="row">
+        <div class="column">
+            <img src="/assets/Images/consulting.png" style="width:100%">
+            <div class="layer">
+                <h3>IT Consulting</h3>
+            </div>
+        </div>
+        <div class="column">
+            <img src="/assets/Images/prodEngg.png" style="width:100%">
+            <div class="layer">
+                <h3>Product Engineering</h3>
+            </div>
+        </div>
+        <div class="column">
+            <img src="/assets/Images/dataEngg.png" style="width:100%">
+            <div class="layer">
+                <h3>Data Engineering</h3>
+            </div>     
+        </div>
+ 
+    </div>
+    
+   
+    
+</section>
+
+<section class="services">
+    
+    <div class="row">
+        
+
+        <div class="column">
+            <img src="/assets/Images/softSoln.png" style="width:100%">
+            <div class="layer">
+                <h3>Software Solutions</h3>
+            </div>
+        </div>
+         <div class="column">
+            <img src="/assets/Images/replatform.png" style="width:100%">
+            <div class="layer">
+                <h3>Replatforming Services</h3>
+            </div>
+        </div> 
+        <div class="column">
+            <img src="/assets/Images/training.png" style="width:100%">
+            <div class="layer">
+                <h3>Training</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+       
+<!--------------New Section - "The Key to Resilience"----------------------------->
+<section class="resilience">
+    
+  <!--- <div style="float:left; width:40%;"> ---->
+     <div class="row">
+        <div class="resilience-col" style= "width:100%">
+            <h1>The key to resilience</h1>
+            <p>Nestif Technologies promote an environment of creative thinking thereby providing robust software solutions and services of tomorrow. The team at Nestif is its strength. A team of experts from diverse background, the team promotes ideas and suggestions from every individual to provide customers the best in today's world.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+         <div class="resilience-col" style= "width:100%">
+            <img src="/assets/Images/resilience.png">
+         </div>
+    </div>
+</section>
+        
+<!----------- Footer    ----------------->      
+
+    
+    
+<!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>Nestif Technologies believes in innovation and adapting to new technologies.<br> We collaborate with partners to drive efficient product development through disruptive technologies.<br> We can play role anywhere in the product development, consulting, POC or implementation.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" onclick="showFacebook()"></i>
+        <i class="fa fa-twitter" onclick="showTwitter()"></i>
+        <i class="fa fa-instagram" onclick="showInstagram()"></i>
+        <i class="fa fa-linkedin" onclick="showLinkedin()"></i>
+    </div>    
+    
+</section> -->
+ 
+    
+
+
+                                     
+                                     
+ <!--------------- Java Script for Toggle Menu -------------->       
+<script>
+        var navLinks = document.getElementById("navLinks");        
+        function showMenu(){
+               navLinks.style.right = "0";
+        }
+        function hideMenu(){
+               navLinks.style.right = "-200px";
+        }
+                                     
+</script>
+        
+
+</body>
+    
+
+    
+</html>
